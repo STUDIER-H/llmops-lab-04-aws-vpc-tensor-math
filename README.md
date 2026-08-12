@@ -22,7 +22,7 @@ Unir os fundamentos de computação em nuvem AWS (redes e segurança) com o rigo
 
 ### Etapa 2: Álgebra Matricial de Atenção (NumPy)
 1. Escreva um módulo Python `math_engine/attention.py` que implemente a equação de Scaled Dot-Product Attention:
-   $$	ext{Attention}(Q, K, V) = 	ext{softmax}\left(rac{QK^T}{\sqrt{d_k}}ight)V$$
+   $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
 2. Calcule e exiba as dimensões exatas de tensores para um modelo de dimensão $d_{model} = 4096$ e $h = 32$ cabeças de atenção.
 
 ---
